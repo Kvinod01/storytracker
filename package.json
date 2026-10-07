@@ -7,6 +7,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/lodash": "^4.17.21",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "^2.6.3"
@@ -16,5 +18,15 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "dompurify": "^3.3.1",
+    "lodash": "^4.17.21",
+    "react-hook-form": "^7.68.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^7.11.0",
+    "swr": "^2.3.7",
+    "tailwind-merge": "^3.4.0"
+  }
 }
